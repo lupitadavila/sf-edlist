@@ -29,3 +29,11 @@ Create an app that lessens the burden of researching schools and allow users to 
 ## API's
 * SODA SF Open Dataset of Schools
 * Google Maps
+
+
+## Some Mockups
+
+### Home Page
+![alt text](https://github.com/lupitadavila/sf-edlist/blob/master/sf-edlist-mockup-home.jpg "Logo Title Text 1")
+### Search Page
+![alt text](https://github.com/lupitadavila/sf-edlist/blob/master/sf-edlist-mockup-search.jpg "Logo Title Text 1")
