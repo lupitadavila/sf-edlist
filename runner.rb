@@ -8,15 +8,15 @@ gyCaUnYm6hyT6RCIJv0okR62e"})
 
 results = client.get("mmsr-vumy", :$limit => 5000)
 
-public_schools = client.get("mmsr-vumy", {"$where" => "general_type='PS'"})
+public_schools = client.get("mmsr-vumy", {"$where" => "campus='PS'"})
 
 puts "Got #{public_schools.count} results"
 # p results.first
 # p public_schools.first
 public_schools.each do |school|
   school.each .each do |key, value|
-    if key == "campus_name" || key == "cds_code"
+    # if key == "campus_name" || key == "cds_code"
       puts "#{key}: #{value}"
-    end
+    # end
   end
 end
